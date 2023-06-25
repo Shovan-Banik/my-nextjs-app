@@ -12,11 +12,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>
-          <li className='list-none'>Home</li>
-        </nav>
         {children}
-        <footer>Footer</footer>
       </body>
     </html>
   )
